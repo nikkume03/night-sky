@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Sky - Pure CSS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="aurora" aria-label="Aurora mode">
+
+  <div class="sky"></div>
+  <div class="stars small"></div>
+  <div class="stars medium"></div>
+  <div class="stars large"></div>
+  <div class="moon"></div>
+  <div class="shooting"></div>
+  <div class="shooting"></div>
+  <div class="aurora"></div>
+
+  <nav>
+    <a class="logo" href="#home">Night Sky</a>
+    <div class="links">
+      <a class="btn" href="#home">Home</a>
+      <a class="btn" href="#constellations">Constellations</a>
+      <a class="btn" href="#facts">Facts</a>
+      <label class="btn" for="aurora">Aurora</label>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div>
+      <h1>Look up.</h1>
+      <p>A scrollable night sky, made with only HTML and CSS.</p>
+      <div class="actions">
+        <a class="btn solid" href="#constellations">Start exploring</a>
+        <label class="btn" for="aurora">Toggle aurora</label>
+      </div>
+    </div>
+  </section>
+
+  <section id="constellations">
+    <div class="inner">
+      <h2>Constellations</h2>
+      <p class="lead">Three patterns of stars you can find on a clear winter night.</p>
+      <div class="grid">
+        <div class="card"><h3>Orion</h3><p>The hunter. Find the three stars in a row that make his belt.</p></div>
+        <div class="card"><h3>Ursa Major</h3><p>The Great Bear. Its seven brightest stars form the Big Dipper.</p></div>
+        <div class="card"><h3>Cassiopeia</h3><p>A bright W shape in the northern sky that never sets from many places.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="facts">
+    <div class="inner">
+      <h2>Quick facts</h2>
+      <p class="lead">Click a question to open the answer.</p>
+      <details>
+        <summary>Why do stars twinkle?</summary>
+        <p>Starlight passes through moving layers of air in our atmosphere, which bends the light slightly and makes it flicker.</p>
+      </details>
+      <details>
+        <summary>How far away is the Moon?</summary>
+        <p>About 384,000 km. Light from the Moon takes just over one second to reach us.</p>
+      </details>
+      <details>
+        <summary>What is a shooting star?</summary>
+        <p>A tiny piece of space dust or rock burning up as it enters the atmosphere. It is not a star at all.</p>
+      </details>
+      <details>
+        <summary>What causes the aurora?</summary>
+        <p>Charged particles from the Sun hit gases in Earth's atmosphere near the poles and make them glow.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer>Made with HTML and CSS only.</footer>
+
+  <a class="btn totop" href="#home" aria-label="Back to top">↑</a>
+
+</body>
+</html>
