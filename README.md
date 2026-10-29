@@ -24,7 +24,15 @@ Tech Stack
 
 Screenshots
 Home page
+night-sky/Home.png
 
+Constellations Section
+night-sky/Constellations.png
 
+Quick Facts Section
+night-sky/QuickFacts.png
+
+Aurora Effect
+night-sky/aurora.png
   I Created as a beginner-friendly HTML and CSS project
 to explore creative web design and CSS animations...!!
