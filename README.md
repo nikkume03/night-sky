@@ -23,16 +23,13 @@ Tech Stack
   without JavaScript.
 
 Screenshots
-Home page
-night-sky/Home.png
+![Home Page](Home.png)
 
-Constellations Section
-night-sky/Constellations.png
+![Constellations Section](Constellations.png)
 
-Quick Facts Section
-night-sky/QuickFacts.png
+![Quick Facts Section](QuickFacts.png)
 
-Aurora Effect
-night-sky/aurora.png
-  I Created as a beginner-friendly HTML and CSS project
+![Aurora Effect](aurora.png)
+
+I Created as a beginner-friendly HTML and CSS project
 to explore creative web design and CSS animations...!!
